@@ -24,8 +24,8 @@ This checklist contains baseline, ongoing information systems and technology pra
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Have a recurrent line item for technology in your budget**  
 *Security is an ongoing process and will require ongoing investments in computer equipment and software to be effective. Work with your technical support provider to determine an appropriate amount to put into this line item.*
 
-:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Provide relatively new and adequately powered computers to all staff**  
-*Industry standard best practice is to replace laptops and desktops every 3 to 5 years. Encryption tools use a lot of power and can bring older, inadequately powered computers to a near halt, making some security steps untenable for staff. Money for replacing 1/3 to 1/5 of your computers each year should be part of your recurring technology budgeting.*
+:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Provide relatively new and adequately powerful computers to all staff**  
+*Industry standard best practice is to replace laptops and desktops every 3 to 5 years. Encryption tools use a lot of CPU cycles and can bring older, less-powerful computers to a near halt, making some security steps untenable for staff. Money for replacing 1/3 to 1/5 of your computers each year should be part of your recurring technology budgeting.*
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Have some baseline non-technical security practices**
 *If you do not control your office space and access to your computers, your other digital security steps can be easily circumvented by walking into your office. Rotate alarm system codes, door codes, wireless network passwords and other sensitive access procedures such as emergency building access when staff leave the organization.*
