@@ -18,7 +18,7 @@ What the symbols in these documents mean.
 4. [Email Safety Checklist](4_email_safety_checklist.md)
 A checklist of tasks related to safe(r) use of Email
 
-5. [Password and Authentication Checklist](5_authenication_checklist.md)  
+5. [Password and Authentication Checklist](5_authentication_checklist.md)  
 A checklist of tasks related to improving password and authentication practices.
 
 6. [Public Wireless Checklist](6_public_wireless_checklist.md)
