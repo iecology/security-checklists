@@ -2,8 +2,8 @@
 document set: DIGITAL SECURITY CHECKLISTS FOR U.S. NON-PROFITS
 title: Email Safety Checklist
 author: Jonah Silas Sheridan, Lisa Jervis
-last modified: 11/18/2015
-version: "1.0, PEER REVIEWED VERSION FOR PUBLIC USE"
+version: "1.1, DRAFT - NOT REVIEWED FOR PUBLIC USE"
+last modified: 11/28/2016
 ---
 # Email Safety Checklist
 ## Introduction
@@ -11,6 +11,8 @@ version: "1.0, PEER REVIEWED VERSION FOR PUBLIC USE"
 This checklist provides a number of practices that can help protect you and your staff when using email to communicate. Before sending an email, ask yourself, would I put this on a postcard that might be kept forever? If the answer is no, consider using other means to communicate.
 
 Think about the emails you receive like a shut up envelope. If you don't know who sent it or what is in the envelope, you should open it very carefully. Especially since, in the case of email, it may contain viruses or other threats to your organization.
+
+Email is a very wide reaching communications platform that was not built with a lot of security in mind. Although the risks associated with using it for work purposes continue to be illustrated through embarrassing and damaging breaches of military, government and celebrity account privacy, we all depend on it every day to connect with people across the globe. The following checklist items can help to minimize those risks. 
 
 **If performing work using sensitive or confidential information including that required to be protected by law (such as personal health information, employment records and credit card numbers) you are must avoid the use of regular (non-encrypted) email to communicate that information. Where email is your only communication option, you may need to implement an encryption scheme as found in the final checklist item below.**
 
@@ -52,7 +54,7 @@ Think about the emails you receive like a shut up envelope. If you don't know wh
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Be very careful clicking links or opening attachments in emails.**  
 :rocket::rocket::wrench::wrench::wrench::fire::fire:
 
-*Links, often innocuous looking or even hidden within emails, are a major way adversaries get rogue software inside networks. Before clicking a link or anywhere on an email, check that it points to a domain name (such as roadmapconsulting.org) that you recognize and expect (in most email programs, as on the web, hovering over a link displays the URL it points to). If not, check with the sender to make sure you aren't being scammed. Similarly, don't open an attachment unless you are expecting it and the filename is in line with that expectation. **NEVER** open links for files from unknown senders or in otherwise suspicious emails.*
+*Links, often innocuous looking or even hidden within emails, are a major way adversaries get rogue software inside networks. Before clicking a link or anywhere on an email, check that it points to a domain name (such as roadmapconsulting.org) that you recognize and expect (in most email programs, as on the web, hovering over a link displays the URL it points to). If not, check with the sender to make sure you aren't being scammed. Similarly, don't open an attachment unless you are expecting it and the filename is in line with that expectation.* **NEVER** *open links for files from unknown senders or in otherwise suspicious emails.*
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Don't send mass email from standard accounts; instead, use a third
 party service and if possible a dedicated mass email subdomain.**
@@ -76,6 +78,6 @@ party service and if possible a dedicated mass email subdomain.**
 :rocket::rocket::rocket::rocket::wrench::wrench::wrench::wrench::fire:  
 *These are highly technical steps made in conjunction with your email and Domain Name Service providers to minimize the ability of spammers or phishers to fake emails from your organization. “Hard fail” settings are preferred for SPF records wherever possible. Once set up, this should have minimal impact on day to day operations, though it make changing your email provider or infrastructure more complex. Find more information at [the official DKIM website]("http://dkim.org/") and [the official SPF website] ("http://www.openspf.org/").*
 
-:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Use PGP encryption to secure your email “end to end”**  
+:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Use PGP or S/MIME encryption to secure your email “end to end”**  
 :rocket::rocket::rocket::rocket::wrench::wrench::wrench::wrench::fire::fire::fire::fire:  
 *This is a highly technical and labor-intensive initiative to undertake, but probably the most complete way to minimize any inadvertent disclosure of data through email. It will likely require significant changes to staff practices. The most common tools for using PGP encryption with email are the [Mozilla Thunderbird]("https://www.mozilla.org/en-US/thunderbird/") email client and the associated [Enigmail plugin]("https://www.enigmail.net/home/index.php"). You can find [a guide for that setup] at ("https://securityinabox.org/en/guide/thunderbird/windows") OSX's Mail program and open source add on [GPGTools] ("https://gpgtools.org") is also a workable tool set for using PGP encrypted email on Macs. Microsoft Outlook works best with a commercial add-on from [Symantec]("http://symantec.com") to use PGP encryption on Windows. For organizations with more resources, S/MIME is an alternate encryption scheme that works well with a Microsoft Exchange/Outlook environment or with GMail by installing the [Penango]("https://www.penango.com"). If interested in either of these solutions talk to your technical support provider and be prepared to invest some time and resources into planning, implementation and training.*
