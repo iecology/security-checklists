@@ -14,9 +14,9 @@ version: "0.1, DRAFT - NOT REVIEWED OR FOR PUBLIC USE"
 
 *Strong passwords and memorable passwords are not the same thing. The strongest passwords are generally random, long and contain a large range of characters including a mix of symbols, numbers and both upper and lowercase letters, and do not include any dictionary words or personal information. But that makes them hard to remember*   
 
-*See above for some of the many ways to generate strong, memorable passwords. There is an online guide to creating passwords as part of the the excellent [Security In a Box website]("https://securityinabox.org/en/guide/passwords"). Most password managers will also make a random password for you, as will other available software for that specific purpose.*
+*See above for some of the many ways to generate strong, memorable passwords. There is an online guide to creating passwords as part of the the excellent [Security In a Box website](https://securityinabox.org/en/guide/passwords). Most password managers will also make a random password for you, as will other available software for that specific purpose.*
 
-*[Diceware]("http://world.std.com/~reinhold/diceware.html") is a fun and effective scheme for creating random passwords using everyday objects and a word list. If you trust a service's password reset process and it uses an email address that you are certain you will control in the future you can make and immediately forget a long random password for a site you seldom use or will never use again.*
+*[Diceware](http://world.std.com/~reinhold/diceware.html") is a fun and effective scheme for creating random passwords using everyday objects and a word list. If you trust a service's password reset process and it uses an email address that you are certain you will control in the future you can make and immediately forget a long random password for a site you seldom use or will never use again.*
 
 **Mitigates: Brute force attacks against organizational accounts from political opponents, thieves, etc.**
 
@@ -62,14 +62,14 @@ lock people out of their computers or work files . In addition, someone will nee
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Where you can, implement two factor authentication for all accounts and set auto-logout to as short a time as possible.**  
 :rocket::rocket::rocket::wrench::wrench::fire::fire::fire:
 
-*Many service providers have begun to offer login systems that rely on more that one piece of information, or factor, to identify yourself. There can be several, but usually there are just two; your password and another code you have. Often this is a code sent by text message to your phone but can also be embedded on a special type of USB device, a program that generates codes on your phone or even a piece of paper with preprinted codes. Users will have to get used to having this extra step to login to new devices, but it protects from someone who obtains either item from getting into the account. Be aware that all smartphone based factors rely on that device being charged and functional and text messaged codes rely on a cell signal (not just wifi) so operating conditions need to be examined and considered. For staff that travel out of cell signal coverage regularly backup codes or the [Google Authenticator application]("https://support.google.com/accounts/answer/1066447?hl=en") can be critical while for others who often drain batteries backup text messaging options, extra phones or portable chargers may be necessary.*
+*Many service providers have begun to offer login systems that rely on more that one piece of information, or factor, to identify yourself. There can be several, but usually there are just two; your password and another code you have. Often this is a code sent by text message to your phone but can also be embedded on a special type of USB device, a program that generates codes on your phone or even a piece of paper with preprinted codes. Users will have to get used to having this extra step to login to new devices, but it protects from someone who obtains either item from getting into the account. Be aware that all smartphone based factors rely on that device being charged and functional and text messaged codes rely on a cell signal (not just wifi) so operating conditions need to be examined and considered. For staff that travel out of cell signal coverage regularly backup codes or the [Google Authenticator application](https://support.google.com/accounts/answer/1066447?hl=en) can be critical while for others who often drain batteries backup text messaging options, extra phones or portable chargers may be necessary.*
 
 **Mitigates: Locks down account, making impersonation of one of your staff members very difficult. Increases security on key accounts that grant access to sensitive data. Limits impact & possibility of phishing attacks**
 
-:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Choose a second authentication factor that does not depend on text messages and hence cell signal. If often offline, consider options that do not depend on a smart phone including hardware keys such as the [Yubikey]("https://yubico.com").**  
-:rocket::rocket::rocket::rocket:wrench::wrench::wrench:fire::fire:
+:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Choose a second authentication factor that matches your operating conditions. If you are often in rural areas on wifi network, you may want an option  does not depend on text messages and hence cell signal. If your mobile device is often battery drained or needs to be turned off, consider options that do not depend on a smart phone including hardware keys such as the [Yubikey]("https://yubico.com").**  
+:rocket::rocket::rocket::rocket::wrench::wrench::wrench::fire::fire:
 
-*As two factor authentication systems have been more broadly used we have seen the various risks associated with smartphone based authentication. Of biggest concern is the security and reliability of text messaging whereby a simple phone call to tech support can redirect your secret codes to a third party or where a dead battery or cell dead zone can lock you out of your accounts. In addition we find many busy organizers and leaders are routinely using up all of their battery, potentially making accounts inaccessible until the decide can be charged. Instead second factors that rely on time based codes or other advanced mathematics are preferred as they can be used offline, on multiple devices and may not even need power. Options include the [Google Authenticator application]("https://support.google.com/accounts/answer/1066447?hl=en") or [Yubikey]("https://yubico.com") or even [paper backup codes]("https://support.google.com/accounts/answer/1187538?hl=en")*
+*As two factor authentication systems have been more broadly used we have seen the various risks associated with smartphone based authentication. Of biggest concern is the security and reliability of text messaging whereby a simple phone call to tech support can redirect your secret codes to a third party or where a dead battery or cell dead zone can lock you out of your accounts. In addition we find many busy organizers and leaders are routinely using up all of their battery, potentially making accounts inaccessible until the decide can be charged. Instead second factors that rely on time based codes or other advanced mathematics are preferred as they can be used offline, on multiple devices and may not even need power. Options include the [Google Authenticator application](https://support.google.com/accounts/answer/1066447?hl=en) or [Yubikey](https://yubico.com) or even [paper backup codes](https://support.google.com/accounts/answer/1187538?hl=en)*
 
 **Mitigates: Challenges with cell phone security and availability. Protects against more committed attackers.**
 
@@ -77,7 +77,7 @@ lock people out of their computers or work files . In addition, someone will nee
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Keep all web browser software, including extensions, updated to the latest version. Prefer Firefox or Chrome browsers. Only use Internet Explorer and Safari when required.**  
 :rocket::wrench::fire:  
-*Internet Explorer has had a much higher incidence of vulnerabilities than Chrome and Firefox while Safari has suffered some recent security concerns. Although nearly all of the latest browsers support “certificate pinning” which makes it harder to intercept secure connections, [Chrome]("https://google.com/chrome") and [Firefox]("https://getfirefox.com/") have led the development of this important feature.*
+*Internet Explorer has had a much higher incidence of vulnerabilities than Chrome and Firefox while Safari has suffered some recent security concerns. Although nearly all of the latest browsers support “certificate pinning” which makes it harder to intercept secure connections, [Chrome](https://google.com/chrome) and [Firefox](https://getfirefox.com/) have led the development of this important feature.*
 
 **Mitigates: Limits well known attacks from less skilled attackers, including opportunistic ones**
 
@@ -85,20 +85,20 @@ lock people out of their computers or work files . In addition, someone will nee
 :rocket::wrench::fire:  
 
 *This step will help ensure that more sites you visit and information you submit to them cannot be seen by others on the wireless network or the operator of the network itself.You can install that plugin from [this page]
-("https://www.eff.org/HTTPS-EVERYWHERE").*
+(https://www.eff.org/HTTPS-EVERYWHERE).*
 
 **Mitigates: Minimizes capture of information when office network or public networks are breached**
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Install Privacy Badger, a browser add-on which will limit the “cookies” - small persistent chunks of information - set on your computer by websites**  
 :rocket::wrench::fire:  
 
-*Privacy Badger is software produced by the non-profit [Electronic Frontier Foundation] ("https://eff.org") to help reduce the privacy breaches and tracking that come with the use of cookies. These cookies can be transferred insecurely so can, if poorly implemented, expose login credentials or other information in transit. As an extra benefit, you will increase you privacy and lessen your online tracking as a result of using this software. Download it [here]("https://privacybadger.org.").*
+*Privacy Badger is software produced by the non-profit [Electronic Frontier Foundation](https://eff.org) to help reduce the privacy breaches and tracking that come with the use of cookies. These cookies can be transferred insecurely so can, if poorly implemented, expose login credentials or other information in transit. As an extra benefit, you will increase you privacy and lessen your online tracking as a result of using this software. Download it [here]("https://privacybadger.org.").*
 
 **Mitigates: Limits exposure to attacker on the same network.**
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Turn on your computer's firewall and disallow all external connections**  
 :rocket::rocket::wrench::wrench::fire::fire:
-*A firewall prevents unauthorized connections from other computers on the wireless network. There is a built in firewall in every computer, but it is not turned on by default and may allow connections to certain services. The firewall settings can be found on Macs in System Preferences > Security. On Windows computers, the firewall settings are in the System and Security tool in Control Panel. More information about Windows Firewall can be found [here] ("http://www.microsoft.com/security/pc-security/firewalls-using.aspx")*
+*A firewall prevents unauthorized connections from other computers on the wireless network. There is a built in firewall in every computer, but it is not turned on by default and may allow connections to certain services. The firewall settings can be found on Macs in System Preferences > Security. On Windows computers, the firewall settings are in the System and Security tool in Control Panel. More information about Windows Firewall can be found [here] (http://www.microsoft.com/security/pc-security/firewalls-using.aspx)*
 
 **Mitigates: Limits exposure to attacker on the same network.**
 
@@ -106,7 +106,7 @@ lock people out of their computers or work files . In addition, someone will nee
 :rocket::wrench::fire::fire:  
 *Although handy for sharing files with peers, the built-in file sharing functionality on your computer is vulnerable to abuse or accidental information leakage. It is preferable to set up alternate tools and practices for sharing files, such as a central file repository.*
 
-*To turn off file sharing on a Mac, go to Apple menu \> System Preferences, then click Sharing and make sure all the boxes are unchecked. See [this article]("https://support.microsoft.com/en-us/kb/307874") for turning off file sharing on a Windows computer.*
+*To turn off file sharing on a Mac, go to Apple menu \> System Preferences, then click Sharing and make sure all the boxes are unchecked. See [this article](https://support.microsoft.com/en-us/kb/307874) for turning off file sharing on a Windows computer.*
 
 *Recognize that if you are currently using the built-in file sharing functionality to share files inside an office, doing this will disrupt current work practices.*
 
