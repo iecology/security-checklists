@@ -1,6 +1,6 @@
 ---
 document set: DIGITAL SECURITY CHECKLISTS FOR U.S. NON-PROFITS
-title: Digital Security Readiness Checklist
+title: Digital Security Readiness Assessment Tool
 author: Jonah Silas Sheridan, Lisa Jervis
 last modified: 11/18/2015
 version: "1.0, PEER REVIEWED VERSION FOR PUBLIC USE"
@@ -38,3 +38,6 @@ the computer is free of malware and viruses.*
 
 :heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Have a disaster recovery plan that includes making regular backups of organizational data that are stored away from your main offices. Do not rely exclusively on third parties to back up and hold your information.**  
 *This actually is a digital security practice itself, but straightforward and critical enough that it needs to come before any other digital security steps. Talk to your technical support provider about the status of your backups. Refer to [this guide] ("http://www.techsoup.org/disaster-planning-and-recovery") for ideas on how to  improve your disaster preparedness.*
+
+:heavy_check_mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Have a process for properly onboarding & offboarding staff and volunteers that includes attention to your information systems.**
+*The expansion or contraction of your team is a critical change in your security context, and so is an important moment to institute strong security measures. Your onboarding process should include detailed steps for the creation of accounts and instructions on how to determine and grant of the correct and minimum of permissions needed for that person to work. When a staff member or volunteer departs, ensure that any of the organization's data that is on their personal or work devices is copied and/or destroyed as necessary. Also at offboarding, all personal accounts of the departed person should be deleted and any organizational passwords that they used or accessed in their work should be changed to something new.*
