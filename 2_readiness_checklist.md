@@ -6,9 +6,9 @@ last modified: 11/18/2015
 version: "1.1, NOT PEER REVIEWED VERSION - NOT FOR PUBLIC USE"
 ---
 
-# Digital Security Readiness Checklist
+# Digital Security Readiness Assessment Tool
 ## Introduction
-This checklist contains baseline, ongoing information systems and technology practices that it is recommended your organization already have in place in order to successfully take on a digital security initiative. If you cannot check off more than 75% of the items in the list below, it is recommended you focus on meeting these baselines before proceeding with other digital security work. Even if at 75% or above, be sure to note the unmarked items and make plans to implement them as soon as possible, as not doing so will likely undermine your security efforts.
+This assessment tool contains a list of baseline, ongoing information systems and technology practices that it is recommended your organization already have in place in order to successfully take on a digital security initiative. If you cannot check off more than 75% of the items in the list below, it is recommended you focus on meeting these baselines before proceeding with other digital security work. Even if at 75% or above, be sure to note the unmarked items and make plans to implement them as soon as possible, as not doing so will likely undermine your security efforts.
 
 ## Digital Security Readiness Tasks
 
