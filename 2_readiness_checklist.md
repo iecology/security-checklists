@@ -3,7 +3,7 @@ document set: DIGITAL SECURITY CHECKLISTS FOR U.S. NON-PROFITS
 title: Digital Security Readiness Assessment Tool
 author: Jonah Silas Sheridan, Lisa Jervis
 last modified: 11/18/2015
-version: "1.0, PEER REVIEWED VERSION FOR PUBLIC USE"
+version: "1.1, NOT PEER REVIEWED VERSION - NOT FOR PUBLIC USE"
 ---
 
 # Digital Security Readiness Checklist
